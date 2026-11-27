@@ -1,0 +1,8 @@
+# 密钥永不入库。真实密钥放 %USERPROFILE%\.dsh\.env，格式见 .env.example
+.env
+*.env
+!*.env.example
+*.bak-*
+*.bak
+__pycache__/
+*.pyc
